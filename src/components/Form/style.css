@@ -1,0 +1,64 @@
+form {
+  align-items: center;
+  background-color: #d3f1fd;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px black;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 400px;
+  justify-content: space-evenly;
+  margin: 20px;
+  margin: 50px auto;
+  padding: 50px 20px;
+  width: 500px;
+}
+
+label {
+  /* background-color: green; */
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  font-weight: 600;
+  justify-content: center;
+  margin: 10px;
+  text-align: left;
+  width: 90%;
+}
+
+input, textarea {
+  /* border-radius: 5px; */
+  padding: 10px;
+  width: 90%;
+}
+
+#label-select {
+  /* background-color: brown; */
+  max-width: max-content;
+}
+
+select {
+  /* background-color: blue; */
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+.level-button-container {
+  /* background-color: blue; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  text-align: left;
+  width: 90%;
+}
+
+button {
+  background-color: #013BE5;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 5px;
+  text-align: center;
+  width: 150px;
+}
