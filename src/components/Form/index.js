@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
+import context from '../../context/myContext';
 import './style.css';
 
 const levels = ['baixo', 'médio', 'alto'];
 
 function Form() {
+const { setCards, cards } = useContext(context)
+
   const [form, setForm] = useState({
     name: '',
     image: '',
@@ -82,7 +85,10 @@ function Form() {
             ))}
           </select>
         </label>
-        <button type='button'>Criar Card</button>
+        <button
+          type='button'
+          onClick={() => setCards([ ...cards, form ])}
+        >Criar Card</button>
       </div>
     </form>
   );
