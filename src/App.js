@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Form from './components/Form';
-import './app.css';
+import './App.css';
 import context from './context/myContext';
 import Card from './components/Card';
 
